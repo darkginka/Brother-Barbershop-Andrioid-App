@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Services"
+        android:id="@+id/item1"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:title="Barbers"
+        android:id="@+id/item2"
+        android:orderInCategory="102"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:title="About Us"
+        android:id="@+id/item3"
+        android:orderInCategory="103"
+        app:showAsAction="never"
+
+        />
+
+    <item
+        android:title="Admin"
+        android:id="@+id/item4"
+        android:orderInCategory="104"
+        app:showAsAction="always"
+        android:icon="@drawable/admin"
+        />
+    <item
+        android:title="Contact Us"
+        android:id="@+id/item5"
+        android:orderInCategory="105"
+        app:showAsAction="never"
+        />
+</menu>

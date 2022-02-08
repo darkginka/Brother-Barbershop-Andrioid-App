@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgorder"
+    android:orientation="vertical"
+    tools:context=".OrdersActivity">
+
+
+        <EditText
+            android:id="@+id/editTId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/del_btn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:background="@color/design_default_color_primary"
+            android:text="Delete" />
+
+        <ListView
+            android:id="@+id/listView"
+            style="@android:style/Widget.DeviceDefault.ExpandableListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animationCache="true"
+            android:scrollbars="horizontal"
+            android:textAlignment="center" />
+
+
+</LinearLayout>

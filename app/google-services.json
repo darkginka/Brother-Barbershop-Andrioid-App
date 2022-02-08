@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "410458201562",
+    "firebase_url": "https://brotherbarbershop.firebaseio.com",
+    "project_id": "brotherbarbershop",
+    "storage_bucket": "brotherbarbershop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410458201562:android:edd5bd06d8ada22744b4e3",
+        "android_client_info": {
+          "package_name": "com.example.brother_barbershop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410458201562-j9tps1bnl365a2oohtks3e34044ufan5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.brother_barbershop",
+            "certificate_hash": "d803c5f86a2b1bc8d20687a422a94b5ab02d3777"
+          }
+        },
+        {
+          "client_id": "410458201562-33c0vk60vveokokbhtvgd4m1clmil1vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF0ayzyQMkBZ5IDrRv-9vMT68B9UmWYJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410458201562-33c0vk60vveokokbhtvgd4m1clmil1vh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
